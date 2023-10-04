@@ -761,7 +761,7 @@ img {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-top: 48px;
+    margin: 48px 8px 0 8px;
 }
 
 .link__heading {
@@ -943,6 +943,25 @@ img {
         border-style: solid;
         border-color: rgb(226, 232, 240);
     } 
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .copy-right {
+        margin: 16px 0;
+    }
+    .link__heading {
+        font-size: 14px;
+    }
+    .link__anchor {
+        font-size: 10px;
+    }
+    .social-link {
+        margin: 0 8px;
+    }
 }
 
 @media (max-width : 576px) {
